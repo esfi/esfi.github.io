@@ -8,20 +8,7 @@ import Team from "../components/team"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    
-    {/* <div className="row">
-      <div className="col-12">
-      <div className="container">
-
-        <h1>Herzlich Willkommen </h1>
-        <p>
-        Wir haben das Rundum-Programm für Sie.
-        Lassen Sie sich von uns beraten und verwöhnen!
-        </p>
-      </div>
-      </div>
-    </div> */}
+    <SEO title="Bella Kosmetik" />
 
 
     <div id="Leistungen">

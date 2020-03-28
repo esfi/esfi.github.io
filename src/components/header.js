@@ -24,10 +24,23 @@ const Header = () => (
 
       <div className="">
       <div className={styles.navigation}>
-          <a href="http://localhost:8000/#Leistungen">Leistungen</a>
+        <ul>
+          <li><a href="http://localhost:8000/#Leistungen">Leistungen</a></li>
+          <li>          <a href="http://localhost:8000/#Offnungszeiten">Öffnungszeiten</a>
+</li>
+          <li>
+          <a href="http://localhost:8000/#Kontakt">Kontakt</a>
+
+          </li>
+          <li>
+          <Link to="/preisliste/"> Preise </Link>
+
+          </li>
+        </ul>
+          {/* <a href="http://localhost:8000/#Leistungen">Leistungen</a>
           <a href="http://localhost:8000/#Offnungszeiten">Öffnungszeiten</a>
           <a href="http://localhost:8000/#Kontakt">Kontakt</a>
-          <Link to="/preisliste/"> Preise </Link>
+          <Link to="/preisliste/"> Preise </Link> */}
       </div>
       </div>
       </div>

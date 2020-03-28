@@ -10,6 +10,7 @@
     font-family: 'Dancing Script';
 }
 
+
 .navigation{
     padding-top: 0.7rem;
     display: flex;
@@ -24,13 +25,30 @@
     font-size: 17px;
     line-height: 1.1;
     letter-spacing: 2px;
-    color:white;
-    
+    color:white; 
     
 }
 
 .navigation a:hover{
     background: transparent ;
+}
+
+/*mobile */
+@media only screen and (max-width: 400px){ 
+
+.navigation  li {
+      display: list-item;
+  }
+
+}
+
+/* tablet and desktop styles */
+@media only screen and (min-width: 401px)  {
+.navigation li {
+    display: inline; 
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 }
 
 .navigation ul{
